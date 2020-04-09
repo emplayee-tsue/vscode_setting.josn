@@ -1,0 +1,157 @@
+{
+    "editor.smoothScrolling": true,
+    "editor.minimap.enabled": false,
+    "editor.tabSize": 2,
+    "editor.renderWhitespace": "all",
+    "files.autoSave": "onFocusChange",
+    "workbench.iconTheme": "vscode-icons",
+    "vsicons.dontShowNewVersionMessage": true,
+    "terminal.integrated.rendererType": "dom",
+    "workbench.startupEditor": "newUntitledFile",
+    "git.suggestSmartCommit": false,
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.tabCompletion": "on",
+    "editor.cursorWidth": 4,
+    "workbench.editor.tabSizing": "shrink",
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "html.format.indentHandlebars": true,
+    "html.format.wrapLineLength": 150,
+    "editor.fontWeight": "500",
+    "files.autoSaveDelay": 500,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.editor.highlightModifiedTabs": true,
+    "todo-tree.tree.showScanModeButton": false,
+    // ウインドウの色
+    "workbench.colorCustomizations": {
+        // 一番横のアクティブバー
+        "titleBar.activeBackground": "#57565632",
+        // "titleBar.activeForeground": "#fffcfc",
+        "activityBar.background": "#57565632",
+        // "activityBar.foreground": "#fffcfc",
+        // バッジ
+        "activityBarBadge.background": "#fffcfcd5",
+        "activityBarBadge.foreground": "#000",
+        // 下部ターミナル
+        "terminal.background": "#2e2e2e",
+        "debugToolBar.background": "#c9c8c832",
+        // 上タブの色
+        "tab.activeForeground": "#ffd900",
+        "tab.inactiveBackground": "#000",
+        "tab.inactiveForeground": "#fffcfc",
+        "tab.activeBorder": "#d1d1d1",
+        "tab.activeBackground": "#009e0054",
+        // 選択ファイル
+        "list.activeSelectionBackground": "#009e0054",
+        "list.inactiveSelectionBackground": "#009e0054",
+        // 横の選択・デバッグコンソールも変わる
+        "list.hoverBackground": "#cccccc32",
+        // 境界線
+        "sideBar.border": "#cccc",
+        "editorGroup.border": "#cccc",
+        "editorHoverWidget.border": "#ffa6006c",
+        "debugExceptionWidget.border": "#FFA500",
+        // カーソル色
+        "editorCursor.foreground": "#FFA500",
+        "terminalCursor.foreground": "#FFA500",
+        // スクロールバー色
+        "scrollbarSlider.activeBackground": "#cccc",
+        "scrollbarSlider.hoverBackground": "#e7e7e770",
+        // パンくず
+        "breadcrumb.foreground": "#e9e9e9", // パンくずリストのアイテムの色。
+        "breadcrumb.focusForeground": "#FFA500", // フォーカスされたパンくずリストの色。
+        "breadcrumb.background": "#55555775", // パンくずリストの背景色。
+        // "breadcrumb.activeSelectionForeground": "#ff0000", // 選択したパンくずリストの色。
+        "breadcrumbPicker.background": "#000", // パンくずリストピッカーの背景色。
+    },
+    // fontstyle:bold（強調書体）／underline（下線）／italic（斜体）を組合せ
+    // コメントの色
+    "editor.tokenColorCustomizations": {
+        "comments": {
+            "foreground": "#8ac582",
+            // "fontStyle": "underline"
+        },
+        "functions": { //関数
+            "foreground": "#ffef5fe3",
+            // "fontStyle": "underline"
+        },
+        "variables": { //変数
+            "foreground": "#ffffffd0",
+            "fontStyle": "bold"
+        },
+        "keywords": { //from　=>とか
+            // "foreground": "#8aa5ffe1",
+            // "fontStyle": "underline"
+        },
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.renderSideBySide": true,
+    "terminal.integrated.cursorWidth": 3,
+    "terminal.integrated.lineHeight": 1.2,
+    "editor.lineHeight": 23,
+    "editor.fontSize": 17.5,
+    "markdown.preview.fontSize": 17,
+    "terminal.integrated.fontSize": 16,
+    // ウィンドウ倍率
+    "window.zoomLevel": -1.2,
+    "debug.console.fontSize": 17,
+    // font種類
+    "terminal.integrated.fontFamily": "Source Han Code JP,‘Cascadia Code’, Consolas, ‘Courier New’",
+    "debug.console.fontFamily": "Source Han Code JP,‘Cascadia Code’, Consolas, ‘Courier New’",
+    "editor.columnSelection": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": true,
+    // "window.menuBarVisibility": "default",
+    // "local-history.treeLocation": "localHistory",
+    "editor.folding": false,
+    "terminal.integrated.letterSpacing": 1,
+    "editor.scrollBeyondLastLine": false,
+    "editor.padding.bottom": 120,
+    "editor.padding.top": 10,
+    "terminal.integrated.fontWeight": "400",
+}
+
+// keybindings.jsonと
+// 拡張機能 PS C:\Users\tsue>     code --list-extensions
+// abusaidm.html-snippets
+// CoenraadS.bracket-pair-colorizer-2
+// dbaeumer.vscode-eslint
+// esbenp.prettier-vscode
+// formulahendry.auto-rename-tag
+// Gruntfuggly.todo-tree
+// IBM.output-colorizer
+// ionutvmi.path-autocomplete
+// karunamurti.haml
+// lihui.vs-color-picker
+// mosapride.zenkaku
+// ms-azuretools.vscode-docker
+// MS-CEINTL.vscode-language-pack-ja
+// ms-python.python
+// ms-vscode-remote.remote-containers
+// ms-vscode-remote.remote-ssh
+// ms-vscode-remote.remote-ssh-edit
+// ms-vscode-remote.remote-wsl
+// ms-vscode-remote.vscode-remote-extensionpack
+// naumovs.color-highlight
+// octref.vetur
+// oderwat.indent-rainbow
+// rebornix.ruby
+// Shan.code-settings-sync
+// shardulm94.trailing-spaces
+// smelukov.vscode-csstree
+// streetsidesoftware.code-spell-checker
+// Tyriar.terminal-tabs
+// vincaslt.highlight-matching-tag
+// VisualStudioExptTeam.vscodeintellicode
+// vscode-icons-team.vscode-icons
+// wingrunr21.vscode-ruby
+// xyz.local-history
