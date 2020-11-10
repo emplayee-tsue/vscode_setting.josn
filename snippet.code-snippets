@@ -1,28 +1,22 @@
 {
-	"#1": {
-		"prefix": "cl",
-		"body": [
-			"console.log('$1', $2);",
-		],
-		"description": "省略"
-	},
-	"#2": {
-		"prefix": "cons",
-		"body": [
-			"console.log('$1', $2);",
-		],
-		"description": "省略"
-	},
-	"#3": {
-		"prefix": "for",
-		"body": [
-			"for (let i = 0; i < $1.length; i++) {$2   }"
-		],
-		"description": "省略"
-	},
-	"#4": {
-		"prefix": "",
-		"body": [],
-		"description": ""
-	},
+  "#1": {
+    "prefix": "cl",
+    "body": ["console.log('$1', $2)"],
+    "description": "省略"
+  },
+  "#2": {
+    "prefix": "cons",
+    "body": ["console.log('$1', $2)"],
+    "description": "省略"
+  },
+  "#3": {
+    "prefix": "for",
+    "body": ["for (let i = 0; i < $1.length; i++) {$2   }"],
+    "description": "省略"
+  },
+  "#4": {
+    "prefix": "",
+    "body": [],
+    "description": ""
+  }
 }
